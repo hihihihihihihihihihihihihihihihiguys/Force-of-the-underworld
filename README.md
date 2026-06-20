@@ -398,6 +398,24 @@ Turn-based tactical combat.
 * cursed ground
 * lava
 * flooding
+
+## Prototype
+
+A minimal playable prototype was added at `src/game.py`.
+
+- Run interactively:
+
+```
+python -m src.game
+```
+
+- Run a short non-interactive demo:
+
+```
+python -m src.game --demo
+```
+
+The prototype uses the existing `Character` class in `src/character.py` and provides a simple turn-based encounter loop.
 * darkness
 
 ---

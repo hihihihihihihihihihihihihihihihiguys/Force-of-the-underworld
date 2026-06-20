@@ -1,0 +1,6 @@
+pygame 
+numpy 
+numba 
+pyopencl 
+shalib 
+pandas 
